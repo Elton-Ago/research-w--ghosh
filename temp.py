@@ -25,4 +25,12 @@ nn = cc
 for ii in range(0,len(nn):
         for jj in range(0,len(nn):
             np.sum(a[:ii],a[:,jj])
-
+                        
+x = [[12,7],[5,2],[6,7]]
+result = [[0,0,0],[0,0,0]]
+                        
+for i in range(0,len(x)):
+    for j in range(0,len(x[0])):
+        result[j][i] = x[i][j]
+for r in result:
+    print(r)
